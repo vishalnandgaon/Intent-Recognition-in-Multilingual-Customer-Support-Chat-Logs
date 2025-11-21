@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Hello, I need help with my order.",
+    "intent": "order_help",
+    "language": "en"
+  },
+  {
+    "text": "Hola, quiero saber el estado de mi pedido.",
+    "intent": "order_status",
+    "language": "es"
+  },
+  {
+    "text": "Bonjour, je souhaite retourner un produit.",
+    "intent": "product_return",
+    "language": "fr"
+  },
+  {
+    "text": "Wie kann ich meine Adresse ändern?",
+    "intent": "change_address",
+    "language": "de"
+  },
+  {
+    "text": "Ciao, il mio pagamento non è andato a buon fine.",
+    "intent": "payment_issue",
+    "language": "it"
+  },
+  {
+    "text": "Olá, quero cancelar minha assinatura.",
+    "intent": "cancel_subscription",
+    "language": "pt"
+  },
+  {
+    "text": "Здравствуйте, как мне получить возврат?",
+    "intent": "refund_request",
+    "language": "ru"
+  },
+  {
+    "text": "こんにちは、注文を変更したいです。",
+    "intent": "order_change",
+    "language": "ja"
+  },
+  {
+    "text": "안녕하세요, 배송이 지연되고 있습니다.",
+    "intent": "delivery_delay",
+    "language": "ko"
+  },
+  {
+    "text": "مرحبا، أريد معرفة رصيد حسابي.",
+    "intent": "account_balance",
+    "language": "ar"
+  }
+]
