@@ -7,7 +7,6 @@ from intent_model import predict_intent
 
 app = Flask(__name__)
 CORS(app)
-
 @app.route('/predict_intent', methods=['POST'])
 def predict_intent_api():
     data = request.json
