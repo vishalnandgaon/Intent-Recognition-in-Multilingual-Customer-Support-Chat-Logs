@@ -1,52 +1,7900 @@
 [
   {
     "text": "Hello, I need help with my order.",
-    "intent": "order_help",
+    "intent": [
+      "order",
+      "help"
+    ],
     "language": "en"
   },
   {
     "text": "Hola, quiero saber el estado de mi pedido.",
-    "intent": "order_status",
+    "intent": [
+      "order",
+      "status"
+    ],
     "language": "es"
   },
   {
     "text": "Bonjour, je souhaite retourner un produit.",
-    "intent": "product_return",
+    "intent": [
+      "product",
+      "return"
+    ],
     "language": "fr"
   },
   {
     "text": "Wie kann ich meine Adresse ändern?",
-    "intent": "change_address",
+    "intent": [
+      "account",
+      "change_address"
+    ],
     "language": "de"
   },
   {
     "text": "Ciao, il mio pagamento non è andato a buon fine.",
-    "intent": "payment_issue",
+    "intent": [
+      "payment",
+      "issue"
+    ],
     "language": "it"
   },
   {
-    "text": "Olá, quero cancelar minha assinatura.",
-    "intent": "cancel_subscription",
-    "language": "pt"
+    "text": "Olá, quiero cancelar minha assinatura.",
+    "intent": [
+      "subscription",
+      "cancel"
+    ],
+    "language": "pt-es"
   },
   {
     "text": "Здравствуйте, как мне получить возврат?",
-    "intent": "refund_request",
+    "intent": [
+      "refund",
+      "request"
+    ],
     "language": "ru"
   },
   {
     "text": "こんにちは、注文を変更したいです。",
-    "intent": "order_change",
+    "intent": [
+      "order",
+      "change"
+    ],
     "language": "ja"
   },
   {
     "text": "안녕하세요, 배송이 지연되고 있습니다.",
-    "intent": "delivery_delay",
+    "intent": [
+      "delivery",
+      "delay"
+    ],
     "language": "ko"
   },
   {
     "text": "مرحبا، أريد معرفة رصيد حسابي.",
-    "intent": "account_balance",
+    "intent": [
+      "account",
+      "balance"
+    ],
     "language": "ar"
+  },
+  {
+    "text": "Hi, can you ask the order? #2287",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you cancel my address? #9864 por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay the product now? por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to change the product? #5636",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the order be rescheduleed?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my order for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update shipment #4375 obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls change the product",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you refund my odrer for me?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund the product now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be rescheduleed?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to cancel my ordr.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update my payment? #8798",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my address",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change the order please",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule my order? #5948",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to check the product.",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my account",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track the order? #3609 pls",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you refund the order for me? #2168",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my account be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check the order?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will my subscription be updateed? #1236",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my order. thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will my subscription be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls reschedule my account",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my order now? pls por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the product be asked? #9741 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule shipment please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update shipment.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change shipment. porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask my order please #2201",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change my payment please",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you update my payment? porfa",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return my subscription now? pls",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my order? #2089 porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check shipment for me?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you complain my subscription for me? obrigado",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you refund my address for me? #635",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update shipment please",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Return the order please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Check the order please #9775",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the odrer be complained? #728",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask the product?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Cancel my payment please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my address",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain shipment now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my payment for me? #758",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change my order. #8487",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my account",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to update my address now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask my payment now? porfa",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls reschedule the ordr",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you update my address? obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you pay my account?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to reschedule the product now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change my account",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my address #4263",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my payment be payed?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you cancel my order? #334",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel the product now? pls",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you return the order?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you track the order for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be checked? #5591 thanks gracias",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to reschedule my account now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to cancel my payment now?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to refund my subscription now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you update my account?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be rescheduleed?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you track the order for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update my payment please",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Reschedule my subscription please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update the order? gracias",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the order be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you return the order for me?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update my account please",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you cancel the product for me? #2848",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Complain my account please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be returned? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to return my payment now?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update the order?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my order please thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my address now? por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Am I able to refund my address now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be refunded? thanks",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my account now? #8999 porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my order for me? thanks",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my subscription now?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to update the product now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be canceled? porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you refund the product for me? #6731 thanks",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay my subscription now? #9670 gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will my subscription be checked? porfa",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask the order?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update my order.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to cancel the order now? pls",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be changeed? pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask the product now? #7556",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls update my payment",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you update my payment for me? thanks",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be returned?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you update my payment for me?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my subscription.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Change the order please #2166",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls reschedule my payment",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update the order #6512",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Pay my order please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask shipment.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain the product. por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Am I able to check my payment now? thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my address",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to return my odrer?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask shipment? #2002 por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you ask my order? #2064",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule the product for me? #2418",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change my subscription please #423 porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls refund my order",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund the order now? porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be checked? #7268 pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my payment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be canceled? #5554",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund my address? thanks por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you refund my subscription?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my address?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my account for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Pay my order please por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to complain my address. por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change shipment please",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my order.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule the order?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be checked? #3350",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to return my payment? thanks",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule shipment. gracias",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will my address be complained? pls",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to complain my account? #9649",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track shipment #8356",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you ask my subscription for me? #9870 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to update my account now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask shipment",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund the order please #6042",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule my address now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund my account",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you cancel my subscription?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be returned? porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Pay my payment please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain my subscription?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to return my address?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be rescheduleed? #5061",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you update the product for me? #4847",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule my order?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to complain my subscription now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you update the product for me?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Complain my subscription please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return the order #7168 por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check my address? por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey hey, pls ask shipment",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update my account? #3534",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my address. #1997 thanks",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel the order now? #8444",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check shipment for me? #1403",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be rescheduleed? #6339 por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to refund the product.",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask my subscription now?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Update my order please",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my account please #5849",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update my account? obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Is it possible to change my payment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to update shipment now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you complain my account?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my subscription now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Pay shipment please #3049",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my account porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my payment please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule the product.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be updateed? #5195",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund my subscription #8239",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my subscription #8502",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my payment por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change shipment? #745",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my address?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask my address please thanks",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to refund the ordr?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you complain my address for me?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track my subscription now? gracias",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Could you reschedule my account for me? #4610",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update my payment?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be refunded? #9065",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to reschedule my payment.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be changeed? #2246",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my subscription?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you pay my payment?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track my order now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to track my order. por favor",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update my order",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my account?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you return my account for me?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to return the product now?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be complained?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel shipment now?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my payment",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you ask the product? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change my address now? #4707",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you cancel the product? #2881",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change my payment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls ask my payment",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be asked? #1563",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Track my order please",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my order please pls",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my payment.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to update my subscription now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule the product for me?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund the order.",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my account.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my account thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check my address please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my order.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask my address?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask my subscription? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be returned?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be canceled? obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Hi, can you check my account?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check my subscription please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track my payment",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be complained? #5643",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will my address be refunded? #8814",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change my account?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track shipment. por favor",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you refund my payment? thanks",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you track my address for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return shipment now?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track shipment?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Complain my address please #9336",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask shipment please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund my subscription",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my order.",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track the order thanks obrigado",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you reschedule my address?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change the order. #8626",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be canceled? #3701 obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the order be checked? pls gracias",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Complain my account please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change shipment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my payment",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay my subscription. thanks obrigado",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Is it possible to complain my address?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my address porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my payment thanks por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to return my account? #1431",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you pay the order? #9799 gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you pay the order for me? #6238 porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will my subscription be canceled? porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to update the product now? #6484",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund my account?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to complain the product now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain the product?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you reschedule my subscription?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to cancel my address now? #2526 obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will my address be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask the order. obrigado",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to ask my address? porfa",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule the product now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to check my account. #2322",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule my account?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my order? por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain the product now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the order #1868",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be asked?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be rescheduleed?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my subscription #5155",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls check my account",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay my account now? #3614",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change my account now? #1872",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule my order now? por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update my payment? #1924",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will shipment be complained?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask the order",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you change my subscription for me?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be complained? #1526",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to refund my account now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the order be refunded?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule my subscription now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update my order. #7480 thanks",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change my payment porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my subscription?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my order for me? #3706 gracias",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls cancel my address #1464",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be returned? por favor obrigado",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to change my account? thanks",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to track the order.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change the product please #9847",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check my payment for me? por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to update my address.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be refunded?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to cancel my order. #991",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be rescheduleed? #8792 por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls reschedule the product",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be canceled? pls obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Hi, can you return the order? pls",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my account pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you check my order for me? pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you ask my address for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my ordr",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to return shipment. #3288",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track my account?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my subscription? #8873",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be refunded? por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to change my payment.",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the odrer",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Track my payment please",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you update my payment for me? #9580 pls",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay the order? #5052 obrigado",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you return my order for me? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check my payment please #6626",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to cancel my account. #196 por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund the order please #1057",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to cancel shipment. #9403",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my address",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain the product please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track the product?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to check my account?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule my order for me?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you change my subscription for me? obrigado",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you refund my subscription for me?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you check the order? #7832 por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change shipment? pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay my account?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be complained? pls",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my order",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update my subscription? #5235 pls",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you refund my account?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my address now?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my address.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you update the order? porfa",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel the odrer?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you pay my subscription?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Reschedule my payment please #9368 por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Pay the order please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return the order now?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my address",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my payment? porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain the product?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to update the product now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my subscription.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my subscription?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain my payment? thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you return my account?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change the order. #4688",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return my address now? thanks",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be payed?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund my order?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the product",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask the order for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund my order pls",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you track my order for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my address. #8009",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to complain shipment?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you change the product for me? obrigado",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls check my account porfa",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be asked?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to return my payment.",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you ask my payment for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you pay my order for me? #8760",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund my payment",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule my subscription? #3660",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund shipment please pls",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain the order now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my subscription",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change shipment",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Check my account please pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be payed? por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund the product?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be changeed? pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my subscription be tracked? pls",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be refunded?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my order?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change the product? #8525",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Cancel the order please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will shipment be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my order?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to cancel the order.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check the order",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you cancel the order? porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to return the order? #6567",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update my address obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls update my account",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to change my account now? porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls update my account",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be rescheduleed? #7278",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update shipment. thanks",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check the order please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check the product now?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you cancel the product?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my subscription now?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my address for me? obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to ask the order now? obrigado",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the order be changeed?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain my payment?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return shipment",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund the order?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be rescheduleed? por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Change my payment please gracias",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the product be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you ask shipment? #7260",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask shipment for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change my subscription.",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to return my order? porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule the order por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund shipment please",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to check the order?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule shipment now? por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to change my order. obrigado",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls pay the order pls",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Cancel the product please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to cancel my odrer. obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you return shipment? pls",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule the order please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my subscription",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to check my account.",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you refund my subscription for me? #3171",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to return my subscription? porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask my address please #5433",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to return my account. #4598",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to return the order.",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you refund my address for me?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my address?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change my subscription now?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you update shipment? #4332",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my address now? porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my payment gracias",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the product be payed?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to reschedule my subscription now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you complain the order for me? thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you ask my address? pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change my payment",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls complain my subscription porfa",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be canceled? #3316",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change the odrer pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be complained? thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay shipment. obrigado",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Reschedule my address please pls",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be tracked? #9591",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be refunded?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my account please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask the order for me? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my order",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to complain my address.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my payment for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund the product? #4521",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain the product? #1478",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain shipment?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my order please #1186 obrigado",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you update my account?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be tracked? porfa obrigado",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls refund the order",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask the product now? #3966",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track shipment #1286",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule my order now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my account",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my address now? #5690",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my account? #3453",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Return my subscription please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay shipment? por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my payment for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update my order #8471",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my order be returned? #4167",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund my payment?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund the product",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be refunded? #2655",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Return my address please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls update my address #3845",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the product #7753",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Cancel the order please #6388",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my subscription #576",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update my account please #8836 thanks",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my address please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Return my subscription please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to check my account now?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be tracked? #6386 obrigado",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Track my payment please por favor",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to return the order now? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls reschedule my order thanks",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to change my order now?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check shipment. thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you return my address? #7258",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel the product now?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule the odrer please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my account #2584",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my order? #8788",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule shipment now? #6190",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls update my payment",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my address for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask shipment. #2127 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain the order? #8052",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask my order?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain my payment? por favor obrigado",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you track my address for me? #2932",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask shipment now? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay my address?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Reschedule my subscription please #5160 porfa",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to complain my subscription. #4342",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be returned? #1265",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain the order please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay my address. #9869",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check my payment? #8232",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to pay my account. porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my address please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be tracked? #8590",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain the order.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my payment",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check the product for me? #1406 pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you change my payment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Track the product please",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Pay my odrer please #4445 pls",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my account. obrigado",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to return shipment now? #5682",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you reschedule my payment? obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey hey, pls return the product thanks",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be asked?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be rescheduleed? por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my subscription? #484",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay my payment now?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track the order",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to track my order? #9908",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to pay my account now? #6695",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you track the product for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my order. por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you check my address?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you pay my payment? obrigado",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls cancel my subscription thanks",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my account.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel the order now? #6293",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my address be changeed?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change my subscription?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you cancel my subscription for me? #8154 gracias",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to track the product now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you ask the product? pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to return shipment. porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my subscription now? porfa",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to cancel my address. #4497",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my odrer.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my order now? #3397",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you refund shipment for me?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my order. por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to ask my account?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask shipment? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to return my order?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain the order please thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Return the product please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel my subscription for me? por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to ask the order? #8530 gracias",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Is it possible to ask the product? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to change my payment. porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return the product",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my order. #6422 thanks",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track the order now? #7673 porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you update my account for me? #4228",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask shipment? #7788 thanks",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my subscription. pls",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you pay my address for me?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my account.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay the order.",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check the order for me? por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Refund my payment please",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my odrer be complained? pls",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund the order please #9670",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Pay my subscription please pls",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update my address",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay my subscription now?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my order now? #8221",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my odrer now? #7890",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to return my account.",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask the ordr please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Complain my payment please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my order please #1260",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Return my payment please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund my subscription please #2963",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my subscription",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my subscription for me? porfa por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Pay my account please #7354",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my address.",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the order",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Cancel my subscription please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Pay shipment please thanks gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to change my account.",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you change my address for me? #7235 obrigado",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hi, can you return my account? #15",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund my address?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund the order now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask the product please obrigado",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii hey, pls update the product obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to ask my payment now? por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Hello, I want to change the product. pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check my subscription? por favor por favor",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Could you cancel my account for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls refund the order",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change my address por favor",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey hey, pls ask my address #119 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return my address now? #4440",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls complain my order porfa por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to track the order.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Ask the product please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you change my subscription?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update my order. pls por favor",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will shipment be updateed? obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the product be payed? #9587",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls complain my account #3182",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you change my order?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my subscription",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track my account now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track my subscription? #7712",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay my account. #9151",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track my subscription? porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my order now? #6642",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my order.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain the product.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my order. porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel the product #1861",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track the product? gracias",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to update my account.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you refund the order for me? por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Cancel my subscription please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my address por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Am I able to reschedule my account now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you refund my payment? por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls change my subscription",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track my order? #7348",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be returned? #5856 pls",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Reschedule the product please obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to pay the product now? porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be payed?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you complain my subscription for me?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my payment now? pls",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my account.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my order.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update my address please",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check my payment #7554",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be returned? porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule the product porfa",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask my payment please porfa obrigado",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to return shipment now? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be tracked? #2151",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my subscription now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check the order for me? #3713",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to pay the odrer. pls",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my account. #4943",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you complain the product for me? #2385",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls refund shipment obrigado",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you check the product for me? #8801 pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update shipment",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the product be tracked? #1808",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to return my order.",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the product be updateed? #1141",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund my subscription? thanks",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be canceled? por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to complain my address.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to update the order. #2206 pls",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask my account now?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you reschedule my order? thanks",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update my order?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be changeed? #8038",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update my subscription?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you return shipment? #6004 obrigado",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to refund my address.",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my payment. #4996 por favor obrigado",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Pay my address please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain the order now? #8139",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to complain my payment? #1235",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain shipment please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be returned?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be updateed? por favor",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be changeed?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my payment #3908 por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be rescheduleed? #2611",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change my order now? #1376 gracias",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will the order be refunded? pls",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my payment now? #2004",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be payed? #4499",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to update shipment.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change shipment now? pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check the product please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Cancel the product please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule shipment now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be asked?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Ask shipment please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Update the product please #6571",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my subscription.",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you cancel the product for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain the product please #2956",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return the product now? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you refund my address for me? por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Check my order please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my order obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey hey, pls reschedule my address #2096",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund my address please",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay my subscription?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you ask my account? #588",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you cancel my account? obrigado",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Is it possible to change the order? #2758",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask the product?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund my order please",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check shipment?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you complain my subscription for me?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule my address. #6536 por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to return my subscription.",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be payed? gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls update the product",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update my payment",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to complain my payment? thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay my order.",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update my payment?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my payment. #6471 por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Pay my account please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to pay my payment. #261 gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you ask my subscription for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to update my subscription now? #2498",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check my account for me? obrigado",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to pay my address now?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you update my account for me? obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to pay my account. gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to ask shipment now?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls ask my account thanks",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to reschedule my order. por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund my order please por favor",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to update my account. obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Hello, I want to update my account. por favor",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check the product now? #4359",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask the product",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to cancel the odrer?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain my order please",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund shipment?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask the product now?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule my payment for me? obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you complain my payment for me?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund my payment? gracias",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to track the product?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule the product. #5920",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to pay the order.",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my subscription",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule the order for me? #2570",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my address.",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to return my payment now? #9661",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return the product porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to complain my payment now?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change my account now? #5329 thanks",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my order now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change my address?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls return my subscription #6673",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my payment be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you cancel my payment?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my payment. thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you reschedule my account?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check my account please",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain my payment?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Return my account please obrigado",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Am I able to change my order now?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be payed? porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track the product now? #8075",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my address.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to complain my subscription. por favor",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you return the product?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be updateed? porfa",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to return the ordr now? por favor",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will my order be refunded?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you pay the ordr for me?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Check shipment please #5584",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track the order now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay shipment. #7241 thanks por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey When will my address be returned? #9824",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to cancel my order.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my address now? gracias",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Is it possible to complain my address? porfa",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check my subscription?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Is it possible to track the order?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Complain shipment please #7444",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you check the product for me? #7877",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be payed? pls",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to update the product? #4655 porfa",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls reschedule the product",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to reschedule my address.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you change shipment for me?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track the order now? thanks",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule shipment now? #6126",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the product be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule the order obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will shipment be complained?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to check my subscription now? #1351",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you cancel my payment for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Return my payment please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Return my order please",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask my order now?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you track my account for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel shipment for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls check shipment #159",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls check my order",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you pay my address for me? #6332",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to ask my payment. thanks gracias",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you return the product for me? #942",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my address #6856",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be tracked? porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Ask my account please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my account now? #1493",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls return my address #7080",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be complained? #2588",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel the product now? porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to refund my address now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update my address?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to change shipment now? #8986",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls update my payment pls",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Cancel my order please #565",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the ordr be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you track shipment for me?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask the odrer for me? #2751 gracias",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Could you refund the product for me? gracias",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "When will my ordr be changeed? #3486",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to refund my order.",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my subscription please",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls update shipment thanks",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to check the product?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be asked? #100 thanks por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to track my subscription. obrigado",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls update my payment #2891",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Ask the product please",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be checked?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be changeed? por favor",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls update the product #8204",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls cancel my address",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you update shipment? gracias",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey hey, pls ask my order por favor",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to change my order.",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the product be canceled?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my payment be payed?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Refund my subscription please",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls change shipment #2982",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change the product?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls update the order",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to update my account. pls",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to refund the product? porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be checked? pls",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to track shipment now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask shipment?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the order be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my order #8991",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to check my subscription?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track the order?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you reschedule my address for me? porfa",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel shipment",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will my address be tracked?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to track my account now? #563",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my payment now? #4776",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my account be changeed? pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my address. porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to change my account now? #3206",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be canceled? gracias",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Hi, can you pay the product?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to pay the order now?",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to cancel the odrer.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update my payment. #7933",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change the order? #324",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls track the order thanks",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey hey, pls change the product pls",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my subscription be rescheduleed?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule the product. #602",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change the product? porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to change my address now?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will shipment be changeed?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to ask my address.",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you track my payment? pls",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change my address please",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay my account",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule the product please #5008 por favor",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii Hello, I want to cancel the product. #4684",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check the product?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to ask my order now? pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you refund the order? #5809 thanks obrigado",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to change my address. #4099",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Pay my subscription please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you check shipment for me? #6465 obrigado",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Track my account please",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls pay my address porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to track my order? thanks",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay the product #4607",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you track my address for me? por favor",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you ask my subscription for me? #3149",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be updateed?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay the product? #9 porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will the order be complained?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change shipment?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my payment for me? #1743 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you reschedule my subscription?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to reschedule shipment?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls reschedule my order pls obrigado",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to track my address now?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my address be payed? #59 por favor obrigado",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Update my payment please por favor",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls return my order pls",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track the order?",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii hey, pls track my payment",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Cancel my address please",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the product be returned?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to update my subscription now? #8037",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to update my address. #194 por favor",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii hey, pls ask my order",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to check the order? #2282",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my payment? #8906",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Check the order please #3676 thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be returned?",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Track the order please pls",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to change my address? porfa",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my payment now? por favor",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Is it possible to change my subscription? obrigado",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hii hey, pls pay my payment #6309",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay shipment",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you reschedule my account for me?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you track the order for me? #282",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my order?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you reschedule my address for me? #2258 por favor gracias",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Hello, I want to refund my ordr. #9731",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you track the order? por favor",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to reschedule my payment now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you change my order? #2628 thanks",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Reschedule my payment please pls",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the product be changeed? #3010",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to cancel my account now?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to track my payment.",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you cancel the order for me?",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Check the product please gracias",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey, pls pay shipment #6673",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will my order be changeed? por favor",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you ask my address for me?",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls cancel my order",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to update the order now? #4590 obrigado",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to update my payment now?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you complain my account?",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update shipment?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my order? #9189 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you pay the order for me? thanks",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to update the order.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Am I able to check my subscription now? thanks",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you update the product?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to cancel my subscription.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my payment #7022",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my address now? thanks",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Could you pay my ordr for me? porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Is it possible to pay the product? gracias",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Am I able to reschedule the order now?",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to reschedule shipment.",
+    "intent": [
+      "delivery",
+      "reschedule"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Pay my address please",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hello, I want to cancel the order.",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to update my address.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Could you return my address for me? #431 porfa",
+    "intent": [
+      "product",
+      "return"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you ask my address? thanks",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls ask my payment #1529 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be checked? #7434",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to check my payment. gracias",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "hey Hello, I want to complain the order. thanks",
+    "intent": [
+      "feedback",
+      "complaint"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to track my address. #1206",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay my address? porfa",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Could you refund the order for me? #2074",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Am I able to refund my payment now?",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Change the product please #9627",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to pay the product? por favor",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to cancel my subscription? #4020 porfa",
+    "intent": [
+      "order",
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii When will the order be tracked? porfa",
+    "intent": [
+      "delivery",
+      "track"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "When will the order be asked? gracias",
+    "intent": [
+      "help"
+    ],
+    "language": "pt-es"
+  },
+  {
+    "text": "Update my order please #2804",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hi, can you check my payment?",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hii Hi, can you pay my order? #1559",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey When will shipment be refunded? porfa",
+    "intent": [
+      "refund",
+      "request"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to ask the order? #3671 pls",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey, pls pay the product",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hi, can you check my payment? #5396",
+    "intent": [
+      "order",
+      "status"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Am I able to change my subscription now?",
+    "intent": [
+      "order",
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Hello, I want to pay my account. #7831",
+    "intent": [
+      "payment",
+      "issue"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to update the product.",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "hey Hello, I want to ask the product. #216",
+    "intent": [
+      "help"
+    ],
+    "language": "en"
+  },
+  {
+    "text": "Is it possible to update the order?",
+    "intent": [
+      "account",
+      "update_info"
+    ],
+    "language": "en"
   }
 ]
